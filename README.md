@@ -8,7 +8,7 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 -   [Vue 3.0](https://v3.vuejs.org/)
 -   [Vuex 4.0](https://vuex.vuejs.org)
--   [Router](https://router.vuejs.org/)
+-   [Router 4.x](https://router.vuejs.org/)
 -   [Tailwind CSS](https://router.vuejs.org/)
 -   [eslint](https://github.com/eslint/eslint)
 -   [prettier](https://github.com/prettier/prettier)
