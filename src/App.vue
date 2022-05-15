@@ -1,11 +1,12 @@
 <script setup>
-import { computed } from 'vue'
-import { useStore } from 'vuex'
+import { computed } from 'vue';
+import { useStore } from 'vuex';
+import GithubSVG from './assets/github.svg';
 
-const store = useStore()
+const store = useStore();
 const stack = computed(() => {
-    return store.state.stack
-})
+    return store.state.stack;
+});
 </script>
 
 <template>
@@ -15,7 +16,12 @@ const stack = computed(() => {
     </nav>
     <router-view class="p-24"></router-view>
     <footer>
-        <p class="text-gray-400 text-xs text-center">Vue 3.0, Vite, Tailwind CSS</p>
+        <p class="text-gray-400 text-xs text-center">
+            Vue 3.0, Vite, Tailwind CSS
+            <a href="https://github.com/nulloneguy/vite-vuex-tailwind" target="_blank">
+                <GithubSVG class="w-5 ml-3 inline" />
+            </a>
+        </p>
     </footer>
 </template>
 
